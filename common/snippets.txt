@@ -1,0 +1,8 @@
+logging:
+
+    #![feature(phase)]
+    #[phase(plugin, link)] extern crate log;
+ 
+    error!("...");
+
+
